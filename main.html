@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROCK PAPER SCISSORS</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div id="title">
+      <img
+        src="images/rockPaperScissors_-_Icon-removebg-preview.png"
+        alt="game-logo"
+      />
+      <p>
+        <span id="rock">ROCK</span> <span id="paper">PAPER</span>
+        <span id="rock">SCISSOR</span>
+      </p>
+    </div>
+
+    <p id="select-move">SELECT YOUR MOVE</p>
+    <div id="moves-container">
+      <button id="rockBTN"><img src="images/rock.png" alt="rock" /></button>
+      <button id="paperBTN">
+        <img src="images/paper.png" alt="paper" />
+      </button>
+      <button id="scissorBTN">
+        <img src="images/scissor.png" alt="scissor" />
+      </button>
+    </div>
+
+    <p>SCORE</p>
+    <div id="scores-container">
+      <div id="myScore">
+        <p>YOU</p>
+        <div id="myScoreContainer">5</div>
+      </div>
+      <div id="computerScore">
+        <p>COMPUTER</p>
+        <div id="computerScoreContainer">4</div>
+      </div>
+    </div>
+
+    <button id="resetScoreBTN">RESET SCORE</button>
+
+    <div id="resultModal">
+      <div id="modal-content">
+        <h1 id="result"></h1>
+        <p id="moveResult">
+          YOU
+          <img src="images/paper.png" alt="move" /> computer
+          <img src="images/rock.png" />
+        </p>
+        <button id="playAgainBTN">PLAY AGAIN</button>
+      </div>
+    </div>
+
+    <div id="resetModal">
+      <div id="resetModalContent">
+        <p>Reset the score?</p>
+        <div>
+          <button id="cancelBTN">CANCEL</button>
+          <button id="confirmBTN">CONFIRM</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="socials">
+      <div>
+        <a href="https://www.facebook.com/sydney.santos.7773/">
+          <img id="facebook" src="../images/socials/facebook.png" alt="" />
+        </a>
+        <a href="https://www.instagram.com/lvrbysyd_/">
+          <img id="instagram" src="../images/socials/social.png" alt="" />
+        </a>
+        <a href="https://github.com/Syddevv">
+          <img id="github" src="../images/socials/github.png" alt="" />
+        </a>
+        <a href="https://www.tiktok.com/@sydlvrby"
+          ><img id="tiktok" src="../images/socials/tik-tok.png" alt=""
+        /></a>
+      </div>
+      <p>Developed by Sydney Santos</p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
