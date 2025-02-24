@@ -320,19 +320,19 @@ a {
   }
 
   #title {
-    font-size: 20px;
+    font-size: 15px;
     flex-direction: column;
     text-align: center;
   }
 
   #title img {
-    width: 70px;
+    width: 50px;
     margin-bottom: 10px;
   }
 
   #moves-container {
-    width: 90%;
-    height: 190px;
+    width: 80%;
+    height: 170px;
     padding: 10px;
   }
 
@@ -366,7 +366,7 @@ a {
 }
 
 /* For mobile phones (max-width: 480px) */
-@media (max-width: 380px) {
+@media (max-width: 370px) {
   body {
     padding: 10px;
   }
@@ -382,10 +382,14 @@ a {
   }
 
   #moves-container {
-    width: 100%;
-    height: auto;
+    width: 90%;
     align-items: center;
     height: 190px;
+  }
+
+  #select-move {
+    font-size: 15px;
+    margin-top: 15px;
   }
 
   #rockBTN,
@@ -400,6 +404,7 @@ a {
     width: 130px;
     height: 40px;
     font-size: 10px;
+    margin-top: 25px;
   }
 
   #socials img {
@@ -408,8 +413,5 @@ a {
 
   #resetModalContent {
     margin: 75% auto;
-  }
-  #modal-content {
-    margin: 70% auto;
   }
 }
