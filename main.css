@@ -413,5 +413,15 @@ a {
 
   #resetModalContent {
     margin: 75% auto;
+    width: 85%;
+  }
+
+  #modal-content {
+    margin: 70% auto;
+    width: 85%;
+  }
+
+  #moveResult {
+    font-size: 13px;
   }
 }
